@@ -1,0 +1,152 @@
+[
+  {
+    "query": "How does the system handle peak load?",
+    "expanded_query": "How does the system handle peak load — including load balancing strategies, horizontal autoscaling, elasticity, connection pooling, circuit breakers, graceful degradation under stress",
+    "strategy_a": [
+      {
+        "rank": 1,
+        "score": 0.5639,
+        "id": "doc_001",
+        "title": "Load Balancing Under Peak Traffic",
+        "snippet": "When a system experiences peak load, the load balancer distributes incoming requests across multiple server instances to prevent any single …"
+      },
+      {
+        "rank": 2,
+        "score": 0.452,
+        "id": "doc_003",
+        "title": "Caching Strategies for High-Throughput Systems",
+        "snippet": "Distributed caches like Redis and Memcached reduce database pressure during traffic surges by serving frequently requested data from memory.…"
+      },
+      {
+        "rank": 3,
+        "score": 0.3967,
+        "id": "doc_002",
+        "title": "Horizontal Autoscaling and Elasticity",
+        "snippet": "Autoscaling is the mechanism by which a cloud-hosted service automatically provisions or terminates compute instances in response to real-ti…"
+      }
+    ],
+    "strategy_b": [
+      {
+        "rank": 1,
+        "score": 0.5792,
+        "id": "doc_001",
+        "title": "Load Balancing Under Peak Traffic",
+        "snippet": "When a system experiences peak load, the load balancer distributes incoming requests across multiple server instances to prevent any single …"
+      },
+      {
+        "rank": 2,
+        "score": 0.4812,
+        "id": "doc_002",
+        "title": "Horizontal Autoscaling and Elasticity",
+        "snippet": "Autoscaling is the mechanism by which a cloud-hosted service automatically provisions or terminates compute instances in response to real-ti…"
+      },
+      {
+        "rank": 3,
+        "score": 0.4408,
+        "id": "doc_009",
+        "title": "Database Sharding and Connection Pooling",
+        "snippet": "Under heavy read/write load, a single database instance becomes a contention point. Horizontal sharding distributes data across multiple ins…"
+      }
+    ]
+  },
+  {
+    "query": "What techniques improve retrieval accuracy in a semantic search pipeline?",
+    "expanded_query": "What techniques improve retrieval accuracy in a semantic search pipeline — including semantic search, vector similarity, approximate nearest neighbour, RAG pipeline, embedding-based retrieval, FAISS index; dense vector representations, cosine similarity, high-dimensional space, sentence-transformers, textembedding-gecko, FAISS, ANN search",
+    "strategy_a": [
+      {
+        "rank": 1,
+        "score": 0.5425,
+        "id": "doc_006",
+        "title": "Retrieval-Augmented Generation (RAG) Architecture",
+        "snippet": "RAG pipelines augment a large language model's responses by first retrieving relevant context from an external knowledge store, then injecti…"
+      },
+      {
+        "rank": 2,
+        "score": 0.4968,
+        "id": "doc_007",
+        "title": "Query Expansion for Improved Retrieval",
+        "snippet": "Query expansion improves retrieval recall by rewriting or augmenting the original user query before embedding it. Techniques include pseudo-…"
+      },
+      {
+        "rank": 3,
+        "score": 0.4371,
+        "id": "doc_005",
+        "title": "FAISS Index Types and Trade-offs",
+        "snippet": "FAISS (Facebook AI Similarity Search) provides several index types suited to different performance profiles. IndexFlatL2 and IndexFlatIP off…"
+      }
+    ],
+    "strategy_b": [
+      {
+        "rank": 1,
+        "score": 0.618,
+        "id": "doc_006",
+        "title": "Retrieval-Augmented Generation (RAG) Architecture",
+        "snippet": "RAG pipelines augment a large language model's responses by first retrieving relevant context from an external knowledge store, then injecti…"
+      },
+      {
+        "rank": 2,
+        "score": 0.5615,
+        "id": "doc_004",
+        "title": "Vector Embeddings and Semantic Search",
+        "snippet": "Vector embeddings transform discrete tokens — words, sentences, or entire documents — into dense numerical representations in a high-dimensi…"
+      },
+      {
+        "rank": 3,
+        "score": 0.5257,
+        "id": "doc_007",
+        "title": "Query Expansion for Improved Retrieval",
+        "snippet": "Query expansion improves retrieval recall by rewriting or augmenting the original user query before embedding it. Techniques include pseudo-…"
+      }
+    ]
+  },
+  {
+    "query": "How can we ensure high availability when a downstream service is failing?",
+    "expanded_query": "How can we ensure high availability when a downstream service is failing — including circuit breaker pattern, open/closed/half-open states, fallback responses, cascading failures, microservice resilience",
+    "strategy_a": [
+      {
+        "rank": 1,
+        "score": 0.5178,
+        "id": "doc_010",
+        "title": "Circuit Breakers and Graceful Degradation",
+        "snippet": "The circuit-breaker pattern prevents cascading failures in microservice architectures by short-circuiting calls to a struggling dependency a…"
+      },
+      {
+        "rank": 2,
+        "score": 0.4879,
+        "id": "doc_008",
+        "title": "Observability and SLOs for Distributed APIs",
+        "snippet": "Production APIs are monitored through a combination of metrics, logs, and distributed traces. Service-level objectives (SLOs) define accepta…"
+      },
+      {
+        "rank": 3,
+        "score": 0.4125,
+        "id": "doc_001",
+        "title": "Load Balancing Under Peak Traffic",
+        "snippet": "When a system experiences peak load, the load balancer distributes incoming requests across multiple server instances to prevent any single …"
+      }
+    ],
+    "strategy_b": [
+      {
+        "rank": 1,
+        "score": 0.7144,
+        "id": "doc_010",
+        "title": "Circuit Breakers and Graceful Degradation",
+        "snippet": "The circuit-breaker pattern prevents cascading failures in microservice architectures by short-circuiting calls to a struggling dependency a…"
+      },
+      {
+        "rank": 2,
+        "score": 0.423,
+        "id": "doc_008",
+        "title": "Observability and SLOs for Distributed APIs",
+        "snippet": "Production APIs are monitored through a combination of metrics, logs, and distributed traces. Service-level objectives (SLOs) define accepta…"
+      },
+      {
+        "rank": 3,
+        "score": 0.3974,
+        "id": "doc_001",
+        "title": "Load Balancing Under Peak Traffic",
+        "snippet": "When a system experiences peak load, the load balancer distributes incoming requests across multiple server instances to prevent any single …"
+      }
+    ]
+  }
+]
